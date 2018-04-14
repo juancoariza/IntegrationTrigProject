@@ -51,11 +51,11 @@ PSI 1 Inspection Requirements
   The class [AngleRadianConverter] has static fields and methods. The explanation for "static" in Java is defined at
   [AngleRadianConverter], lines 30 - 34.
   
-  - StringBuilder Implementation
+  - StringBuilder Implementation:
   *Note: as of this version, the StringBuilder has been declared at [UniversalScanner], line 17, but has not been used in a meaningful
   way within my code. I will re-submit this portion once I figure out how to implement StringBuilder concepts with my program.
   
-  - Encapsulation 
+  - Encapsulation: 
   [AngleRadianConverter] contains multiple constructors and a private field with a corrensponding getter/setter. The object is created
   and loaded with constrcutors at [TrigonometryUserInteraction], lines 121 - 146. 
  
@@ -79,19 +79,8 @@ PSI 3 Inspection Requirements
   *Note: for this section, I borrowed and cited the code found at https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm. 
   Said code is commented and noted to show my understanding of Lambda expressions. The code is placed as the class [Java8Tester] *
   
-  - Java.time and Java.time.format:
+  - Java.time and Java.time.format for Date and Time:
   The *time* package was imported for its classes [LocalDate] and [LocalTime]. Once imported, objects named currentDate and currentTime
   were called to their respective classes. These values were then printed onto the console. The example of this is found at
   [TrigonometryUserInteraction], lines 35 - 39.
   
-  
-  
-  
-  
- 
- 
- 
- 
- 
- 
- 
