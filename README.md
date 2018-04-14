@@ -20,6 +20,16 @@ PSI 1 Inspection Requirements
  
   - General Class:
   The class [AngleRadianConverter] has a private field, a public getter/setter, and two methods.
+  
+  - String Manipulation:
+  *Note: currently, there's only one modifier type for strings in the form of substring(), located at [TrigonometryUserInteraction],
+  lines 74 - 75, among other places.  I will add more before the Final PSI *
+  
+  - Casting:
+  An example of casting can be found at [AngleRadianConverter], lines 22 - 25. 
+  
+  - Declaring a Method: 
+  Example at [TrigonometryUserInteraction], line 74.  
  
  PSI 2 Inspection Requirements
   - Accessing all Fields and Methods of Object:
@@ -67,7 +77,7 @@ PSI 3 Inspection Requirements
   
   - Lambda Expressions:
   *Note: for this section, I borrowed and cited the code found at https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm. 
-  Said code is commented and noted to show my understanding of Lambda expressions. *
+  Said code is commented and noted to show my understanding of Lambda expressions. The code is placed as the class [Java8Tester] *
   
   - Java.time and Java.time.format:
   The *time* package was imported for its classes [LocalDate] and [LocalTime]. Once imported, objects named currentDate and currentTime
