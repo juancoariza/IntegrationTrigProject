@@ -84,3 +84,6 @@ PSI 3 Inspection Requirements
   were called to their respective classes. These values were then printed onto the console. The example of this is found at
   [TrigonometryUserInteraction], lines 35 - 39.
   
+Update - 8/31/2018
+Currently unfinished
+Will complete with GUI later on
